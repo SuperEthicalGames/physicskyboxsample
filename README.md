@@ -1,6 +1,4 @@
 # Physic Skybox Sample
-<img width="903" height="508" alt="image" src="https://github.com/user-attachments/assets/5bf78bff-01fc-4259-94ce-2bef5b500937" />
-<img width="905" height="506" alt="image" src="https://github.com/user-attachments/assets/e09b804b-131c-4723-906a-214c9dcc82b6" />
 
 **Physic Skybox Sample** is an astronomical sky and day/night system for Unity designed to demonstrate a physically-inspired relationship between astronomical time, the Sun, the Moon, lighting, atmosphere, and sky rendering.
 

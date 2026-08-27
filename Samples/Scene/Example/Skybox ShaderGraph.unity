@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 91146789}
   - component: {fileID: 91146792}
-  - component: {fileID: 91146793}
   m_Layer: 0
   m_Name: Directional Lights -> Day time based on Day/Month/Year
   m_TagString: Untagged
@@ -185,38 +184,24 @@ MonoBehaviour:
   _SunRotationOffset: {x: 0, y: 0, z: 0}
   _MoonRotationOffset: {x: 0, y: 0, z: 0}
   _UpdateShaderGlobals: 1
-  _CurrentUTCTime: 2026-08-27 21:32:19.829
-  _CurrentLocalTime: 2026-08-27 16:32:19.829
+  _CurrentUTCTime: 2026-08-27 22:14:10.380
+  _CurrentLocalTime: 2026-08-27 17:14:10.380
   _DeviceTimeZone: SA Pacific Standard Time
   _DeviceUTCOffsetHours: -5
-  _JulianDate: 2461280.3974517244
-  _LocalSiderealTime: 223.63092514313757
-  _SunRightAscension: 156.4861255187256
-  _SunDeclination: 9.813059310296932
-  _SunAltitude: 23.55332354269533
-  _SunAzimuth: 278.01137154811624
-  _MoonAltitude: -19.512441787048026
-  _MoonAzimuth: 99.33763060674454
-  _MoonDistanceEarthRadii: 61.66432007269414
-  _SolarHourAngle: 67.14479962441197
-  _SolarTimeHours: 16.4763199749608
-  _SolarCycle: 0.6865133322900333
-  _MoonPhaseAngle: 176.65577110326416
-  _MoonIllumination: 0.9991485415996428
---- !u!114 &91146793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91146786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a63f5461f7f4ae64ea81e74abc043199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Superethicalgamesmt0kkk72.Superethicalgames::SkyboxController
-  _Sun: {fileID: 675219396}
-  _Moon: {fileID: 93812770}
+  _JulianDate: 2461280.426509028
+  _LocalSiderealTime: 234.12019463814795
+  _SunRightAscension: 156.5126364815267
+  _SunDeclination: 9.802825214426461
+  _SunAltitude: 13.29200937612913
+  _SunAzimuth: 278.64023913510755
+  _MoonAltitude: -9.510482657134613
+  _MoonAzimuth: 99.87230998386228
+  _MoonDistanceEarthRadii: 61.6448678933318
+  _SolarHourAngle: 77.60755815662125
+  _SolarTimeHours: 17.173837210441416
+  _SolarCycle: 0.715576550435059
+  _MoonPhaseAngle: 176.99295765564983
+  _MoonIllumination: 0.999311547244587
 --- !u!1 &93812769
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.009989032, y: -0.2896847, z: -0.09924463, w: 0.9519105}
+  m_LocalRotation: {x: 0.073138505, y: -0.2929185, z: -0.07254557, w: 0.9505718}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -697,7 +682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11332481, y: 0.94736254, z: -0.043378375, w: 0.29627702}
+  m_LocalRotation: {x: 0.08495708, y: 0.94917095, z: 0.04159102, w: 0.30021185}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
