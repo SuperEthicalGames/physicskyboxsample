@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.54509807, g: 0.8588236, b: 1, a: 1}
+  m_FogColor: {r: 0.054901965, g: 0.054901965, b: 0.07058824, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.0025
   m_LinearFogStart: 0
@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 3.0030327
+  m_AmbientIntensity: 1.4239225
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: ec1045a79aa706e4db8f2a83cee16b99, type: 2}
@@ -170,7 +170,7 @@ MonoBehaviour:
   _Moon: {fileID: 93812770}
   _Latitude: 6.244200229644775
   _Longitude: -75.5811996459961
-  _TimeMode: 0
+  _TimeMode: 3
   _TimeScale: 1
   _Year: 2026
   _Month: 8
@@ -185,24 +185,24 @@ MonoBehaviour:
   _SunRotationOffset: {x: 0, y: 0, z: 0}
   _MoonRotationOffset: {x: 0, y: 0, z: 0}
   _UpdateShaderGlobals: 1
-  _CurrentUTCTime: 2026-08-27 18:34:44.267
-  _CurrentLocalTime: 2026-08-27 13:34:44.267
+  _CurrentUTCTime: 2026-08-28 01:13:26.466
+  _CurrentLocalTime: 2026-08-27 20:13:26.466
   _DeviceTimeZone: SA Pacific Standard Time
   _DeviceUTCOffsetHours: -5
-  _JulianDate: 2461280.2741234605
-  _LocalSiderealTime: 179.11119197076187
-  _SunRightAscension: 156.3735902723203
-  _SunDeclination: 9.85647158558292
-  _SunAltitude: 67.21243191918134
-  _SunAzimuth: 280.6096436161922
-  _MoonAltitude: -62.12746104423145
-  _MoonAzimuth: 102.70963183128063
-  _MoonDistanceEarthRadii: 61.7461520251472
-  _SolarHourAngle: 22.73760169844155
-  _SolarTimeHours: 13.515840113229437
-  _SolarCycle: 0.5631600047178932
-  _MoonPhaseAngle: 175.21870247854812
-  _MoonIllumination: 0.9982600601341087
+  _JulianDate: 2461280.5510007637
+  _LocalSiderealTime: 279.0599244874902
+  _SunRightAscension: 156.6262041587249
+  _SunDeclination: 9.758953976907748
+  _SunAltitude: -30.463592125597426
+  _SunAzimuth: 285.1995422538032
+  _MoonAltitude: 32.68059953592134
+  _MoonAzimuth: 106.28464655535969
+  _MoonDistanceEarthRadii: 61.56081271894444
+  _SolarHourAngle: 122.4337203287653
+  _SolarTimeHours: 20.162248021917687
+  _SolarCycle: 0.8400936675799037
+  _MoonPhaseAngle: 178.414475546554
+  _MoonIllumination: 0.9998085687133156
 --- !u!114 &91146793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.35841304, y: -0.21233188, z: -0.17955337, w: 0.89118797}
+  m_LocalRotation: {x: 0.4169931, y: -0.24602702, z: 0.031016313, w: 0.8744287}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -417,11 +417,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -493,7 +493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &215911152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -697,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20071484, y: 0.8696259, z: -0.39541754, w: 0.21704681}
+  m_LocalRotation: {x: -0.02722084, y: 0.880154, z: 0.399011, w: 0.25569183}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -870,11 +870,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1014,13 +1014,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731488547}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.8325347, z: 0, w: -0.553973}
-  m_LocalPosition: {x: -6.75, y: 2.28, z: 0}
+  m_LocalRotation: {x: 0.068087205, y: -0.8976124, z: -0.1494037, w: -0.40906563}
+  m_LocalPosition: {x: -6.75, y: 2.28, z: 0.000000004851261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 472.72, z: 0}
+  m_LocalEulerAnglesHint: {x: -18.9, y: 491, z: 0}
 --- !u!114 &731488551
 MonoBehaviour:
   m_ObjectHideFlags: 0

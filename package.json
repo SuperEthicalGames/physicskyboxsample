@@ -6,6 +6,7 @@
   "unityRelease": "2f1",
   "description": "An educational astronomical sky and day/night system for Unity featuring real-time and simulated astronomical time, accurate Sun and Moon positioning, lunar phases and illumination, solar and lunar eclipses, stars and constellations, procedural clouds, atmospheric effects, dynamic lighting and fog, and URP post-processing.",
   "dependencies": {
+    "com.unity.render-pipelines.universal": "17.4.0",
     "com.unity.test-framework": "1.6.0"
   },
   "author": {
