@@ -1,0 +1,14 @@
+{
+    "name": "Superethicalgamesmt0kkk72.Superethicalgames.Editor.Tests",
+    "references": [
+        "Superethicalgamesmt0kkk72.Superethicalgames.Editor",
+        "Superethicalgamesmt0kkk72.Superethicalgames"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

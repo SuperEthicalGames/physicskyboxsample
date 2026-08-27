@@ -1,0 +1,10 @@
+{
+    "name": "Superethicalgamesmt0kkk72.Superethicalgames.Editor",
+    "references": [
+      "Superethicalgamesmt0kkk72.Superethicalgames"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

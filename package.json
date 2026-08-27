@@ -1,0 +1,19 @@
+{
+  "name": "com.superethicalgamesstudio.physicskyboxsample",
+  "displayName": "Super Ethical Games",
+  "version": "0.0.1",
+  "unity": "6000.4",
+  "unityRelease": "2f1",
+  "description": "An educational astronomical sky and day/night system for Unity featuring real-time and simulated astronomical time, accurate Sun and Moon positioning, lunar phases and illumination, solar and lunar eclipses, stars and constellations, procedural clouds, atmospheric effects, dynamic lighting and fog, and URP post-processing.",
+  "dependencies": {
+    "com.unity.test-framework": "1.6.0"
+  },
+  "author": {
+    "name": "Super Ethical Games Studio",
+    "url": "superethicalgames.github.io",
+    "email": "superethicalgames@outlook.com"
+  },
+  "changelogUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/README.md",
+  "licensesUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/LICENSE.md"
+}

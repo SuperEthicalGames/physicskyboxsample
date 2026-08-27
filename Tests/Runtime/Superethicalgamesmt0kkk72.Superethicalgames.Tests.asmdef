@@ -1,0 +1,11 @@
+{
+    "name": "Superethicalgamesmt0kkk72.Superethicalgames.Tests",
+    "references": [
+        "Superethicalgamesmt0kkk72.Superethicalgames"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
