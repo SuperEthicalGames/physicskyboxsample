@@ -15,15 +15,15 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.054901965, g: 0.054901965, b: 0.07058824, a: 1}
+  m_FogColor: {r: 0.17254902, g: 0.17254902, b: 0.21960786, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.0025
+  m_FogDensity: 0
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.4239225
+  m_AmbientIntensity: 1.45
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: ec1045a79aa706e4db8f2a83cee16b99, type: 2}
@@ -169,8 +169,8 @@ MonoBehaviour:
   _Moon: {fileID: 93812770}
   _Latitude: 6.244200229644775
   _Longitude: -75.5811996459961
-  _TimeMode: 0
-  _TimeScale: 1
+  _TimeMode: 3
+  _TimeScale: 1000
   _Year: 2026
   _Month: 8
   _Day: 16
@@ -184,24 +184,24 @@ MonoBehaviour:
   _SunRotationOffset: {x: 0, y: 0, z: 0}
   _MoonRotationOffset: {x: 0, y: 0, z: 0}
   _UpdateShaderGlobals: 1
-  _CurrentUTCTime: 2026-08-28 00:18:39.115
-  _CurrentLocalTime: 2026-08-27 19:18:39.115
+  _CurrentUTCTime: 2026-08-18 09:42:43.508
+  _CurrentLocalTime: 2026-08-18 04:42:43.508
   _DeviceTimeZone: SA Pacific Standard Time
   _DeviceUTCOffsetHours: -5
-  _JulianDate: 2461280.51295272
-  _LocalSiderealTime: 265.32512674853206
-  _SunRightAscension: 156.59149731722223
-  _SunDeclination: 9.772366469273807
-  _SunAltitude: -17.227685266953223
-  _SunAzimuth: 282.2803450564766
-  _MoonAltitude: 19.976730721790496
-  _MoonAzimuth: 103.3786947324575
-  _MoonDistanceEarthRadii: 61.586623386426375
-  _SolarHourAngle: 108.73362943130982
-  _SolarTimeHours: 19.248908628753988
-  _SolarCycle: 0.8020378595314162
-  _MoonPhaseAngle: 177.98687601406678
-  _MoonIllumination: 0.9996914034179063
+  _JulianDate: 2461270.9046702315
+  _LocalSiderealTime: 36.87305257515982
+  _SunRightAscension: 147.7471172471714
+  _SunDeclination: 13.026471044366108
+  _SunAltitude: -18.697408745262326
+  _SunAzimuth: 73.95398517294744
+  _MoonAltitude: -77.64930493862117
+  _MoonAzimuth: 159.4490957706473
+  _MoonDistanceEarthRadii: 62.228686857364714
+  _SolarHourAngle: -110.87406467201157
+  _SolarTimeHours: 4.608395688532562
+  _SolarCycle: 0.1920164870221901
+  _MoonPhaseAngle: 70.91979931440724
+  _MoonIllumination: 0.3365543300730593
 --- !u!1 &93812769
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.31552646, y: -0.27243036, z: 0.0039627627, w: 0.90896046}
+  m_LocalRotation: {x: -0.48377454, y: 0.14173992, z: 0.15730575, w: 0.8491919}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -402,11 +402,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.9534064
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1535,7 +1535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0026603192, y: 0.91373867, z: 0.29282138, w: 0.28165624}
+  m_LocalRotation: {x: -0.0029122755, y: -0.48162836, z: -0.16118523, w: 0.8614203}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1708,11 +1708,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 0.051382948
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1852,13 +1852,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731488547}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.068087205, y: -0.8976124, z: -0.1494037, w: -0.40906563}
+  m_LocalRotation: {x: 0.020402249, y: -0.9088593, z: -0.044768643, w: -0.41419113}
   m_LocalPosition: {x: -6.75, y: 2.28, z: 0.000000004851261}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -18.9, y: 491, z: 0}
+  m_LocalEulerAnglesHint: {x: -5.64, y: 491, z: 0}
 --- !u!114 &731488551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,8 +1985,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2
-      outSlope: 2
+      inSlope: 0
+      outSlope: 1
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -1994,7 +1994,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
+      inSlope: 1
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -2058,6 +2058,32 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  twilightStartAltitude: -6
+  twilightEndAltitude: -18
+  twilightIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0119019
+      value: 0.07867432
+      inSlope: 0.02347119
+      outSlope: 0.02347119
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08714597
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   ambientColor:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -2093,29 +2119,31 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1.4239225
-      inSlope: 8.050872
-      outSlope: 8.050872
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.04171635
-    - serializedVersion: 3
-      time: 0.5020447
-      value: 3.0030327
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 3
+      inSlope: 6.180702
+      outSlope: 6.180702
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.05125147
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  minimumAmbientIntensity: 1.45
+  moonAmbientContribution: 1
   fogColor:
     serializedVersion: 2
-    key0: {r: 0.055893622, g: 0.05589362, b: 0.071, a: 1}
-    key1: {r: 1, g: 0.5176471, b: 0.55250835, a: 1}
+    key0: {r: 0.1711111, g: 0.1711111, b: 0.22, a: 1}
+    key1: {r: 1, g: 0.73558855, b: 0.518, a: 1}
     key2: {r: 0.546, g: 0.8575686, b: 1, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2146,13 +2174,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0.0025
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      time: 0.0035757124
+      value: -0.0030911844
+      inSlope: 0.0041275006
+      outSlope: 0.0041275006
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0035757
+      value: 0.0010363162
+      inSlope: 0.0041275006
+      outSlope: 0.0041275006
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -2163,21 +2200,21 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: -0.093473464
-      inSlope: 0.25259835
-      outSlope: 0.25259835
-      tangentMode: 34
+      value: -1
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.33333334
+      outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0.15912487
-      inSlope: 0.25259835
-      outSlope: 0.25259835
-      tangentMode: 34
+      value: 0
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -2310,6 +2347,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   moonMinAltitude: -6
   moonMaxAltitude: 6
+  intersectionTolerance: 0.001
+  minimumHandoffInterval: 1
+  lightIntensitySmoothTime: 10
+  lightColorSmoothTime: 10
 --- !u!43 &803822368
 Mesh:
   m_ObjectHideFlags: 0
