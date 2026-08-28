@@ -115,17 +115,52 @@ The sample also contains:
 
 ---
 
-# Installation
+## Getting Started
 
-Install the package through Unity's Package Manager using the package's Git URL or by placing the package inside the `Packages` directory of a Unity project.
+### 1. Install the Package
 
-The package identifier is:
+Install **Physic Skybox Sample** through the Unity Package Manager.
 
-`com.superethicalgamesstudio.physicskyboxsample`
+Once the package has been installed, open:
 
-After installation, open the included sample scene:
+**Window → Package Manager**
 
-`Runtime/Physic Skybox Sample/Scene/Skybox Sample.unity`
+Select **Super Ethical Games – Physic Skybox Sample** from the package list.
+
+### 2. Import the Sample
+
+Open the **Samples** section in the Package Manager.
+
+Locate:
+
+**Physic Skybox Sample**
+
+Click **Import** to copy the sample content into your project.
+
+> The sample is imported into your project's `Assets` folder, allowing you to modify the scenes, scripts, materials, shaders, and other sample files.
+
+### 3. Open the Example Scene
+
+After importing the sample, navigate to the imported sample folder in your project's `Assets` directory.
+
+Open the example scene to explore the astronomical sky and day/night system.
+
+### 4. Start Exploring
+
+The sample includes examples demonstrating:
+
+- Astronomical time
+- Sun and Moon positioning
+- Day/night transitions
+- Lunar phases
+- Stars and constellations
+- Atmospheric effects
+- Procedural clouds
+- Dynamic lighting and fog
+- Skybox shaders and Shader Graph
+- URP rendering and post-processing
+
+Feel free to inspect the scripts, shaders, materials, and scene setup to understand how the system works.
 
 ---
 
