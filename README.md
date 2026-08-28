@@ -1,6 +1,5 @@
 # Physic Skybox Sample
-<img width="903" height="508" alt="Captura de pantalla 2026-08-27 162656" src="https://github.com/user-attachments/assets/30873f6b-5613-4dff-8111-aea0821b33f3" />
-<img width="905" height="506" alt="Captura de pantalla 2026-08-27 162838" src="https://github.com/user-attachments/assets/c11b646d-b175-4d40-af54-83debd944078" />
+<img width="1536" height="1024" alt="ChatGPT Image 28 ago 2026, 10_53_25 a m" src="https://github.com/user-attachments/assets/fbe1757c-69b7-4bc9-af00-2416c86d4027" />
 
 **Physic Skybox Sample** is an astronomical sky and day/night system for Unity designed to demonstrate a physically-inspired relationship between astronomical time, the Sun, the Moon, lighting, atmosphere, and sky rendering.
 
