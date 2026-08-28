@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.54509807, g: 0.8588236, b: 1, a: 1}
+  m_FogColor: {r: 0.054901965, g: 0.054901965, b: 0.07058824, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.0025
   m_LinearFogStart: 0
@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 3.0030327
+  m_AmbientIntensity: 1.4239225
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: ec1045a79aa706e4db8f2a83cee16b99, type: 2}
@@ -184,24 +184,24 @@ MonoBehaviour:
   _SunRotationOffset: {x: 0, y: 0, z: 0}
   _MoonRotationOffset: {x: 0, y: 0, z: 0}
   _UpdateShaderGlobals: 1
-  _CurrentUTCTime: 2026-08-27 22:14:10.380
-  _CurrentLocalTime: 2026-08-27 17:14:10.380
+  _CurrentUTCTime: 2026-08-27 23:42:32.887
+  _CurrentLocalTime: 2026-08-27 18:42:32.887
   _DeviceTimeZone: SA Pacific Standard Time
   _DeviceUTCOffsetHours: -5
-  _JulianDate: 2461280.426509028
-  _LocalSiderealTime: 234.12019463814795
-  _SunRightAscension: 156.5126364815267
-  _SunDeclination: 9.802825214426461
-  _SunAltitude: 13.29200937612913
-  _SunAzimuth: 278.64023913510755
-  _MoonAltitude: -9.510482657134613
-  _MoonAzimuth: 99.87230998386228
-  _MoonDistanceEarthRadii: 61.6448678933318
-  _SolarHourAngle: 77.60755815662125
-  _SolarTimeHours: 17.173837210441416
-  _SolarCycle: 0.715576550435059
-  _MoonPhaseAngle: 176.99295765564983
-  _MoonIllumination: 0.999311547244587
+  _JulianDate: 2461280.4878806365
+  _LocalSiderealTime: 256.2744645117782
+  _SunRightAscension: 156.5686257389224
+  _SunDeclination: 9.781202699818442
+  _SunAltitude: -8.434322859260707
+  _SunAzimuth: 280.8940042013693
+  _MoonAltitude: 11.532700576862014
+  _MoonAzimuth: 102.0136029270315
+  _MoonDistanceEarthRadii: 61.603573755497784
+  _SolarHourAngle: 99.7058387728558
+  _SolarTimeHours: 18.647055918190386
+  _SolarCycle: 0.7769606632579328
+  _MoonPhaseAngle: 177.700744268579
+  _MoonIllumination: 0.9995974581698052
 --- !u!1 &93812769
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.073138505, y: -0.2929185, z: -0.07254557, w: 0.9505718}
+  m_LocalRotation: {x: 0.24689795, y: -0.2834051, z: -0.016781017, w: 0.92652106}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4d76f733087744991913c9d19d5274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.LensFlareComponentSRP
-  m_LensFlareData: {fileID: 11400000, guid: 69ffd98bf7a2a4bf9a1217c6d30c381d, type: 2}
+  m_LensFlareData: {fileID: 11400000, guid: bd7eaf3bd49c39f4cb77bd809459aa72, type: 2}
   version: 0
   intensity: 0.1
   maxAttenuationDistance: 100
@@ -402,11 +402,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93812769}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -682,7 +682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08495708, y: 0.94917095, z: 0.04159102, w: 0.30021185}
+  m_LocalRotation: {x: 0.025242008, y: 0.93011427, z: 0.22110698, w: 0.2921678}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4d76f733087744991913c9d19d5274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.LensFlareComponentSRP
-  m_LensFlareData: {fileID: 11400000, guid: 632ff411dbbf5d54593d6e684940a2bf, type: 2}
+  m_LensFlareData: {fileID: 11400000, guid: bd7eaf3bd49c39f4cb77bd809459aa72, type: 2}
   version: 0
   intensity: 1
   maxAttenuationDistance: 100
@@ -855,11 +855,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675219395}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

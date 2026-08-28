@@ -16,5 +16,12 @@
   },
   "changelogUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/CHANGELOG.md",
   "documentationUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/README.md",
-  "licensesUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/LICENSE.md"
+  "licensesUrl": "https://github.com/SuperEthicalGamesStudio/PhysicSkyboxSample/blob/main/LICENSE.md",
+  "samples": [
+    {
+      "displayName": "Physic Skybox Sample",
+      "description": "Complete demonstration scene showcasing the astronomical sky, Sun and Moon positioning, day/night cycle, atmosphere, stars, clouds, lighting, and eclipse effects.",
+      "path": "Samples~/Physic Skybox Sample"
+    }
+  ]
 }
